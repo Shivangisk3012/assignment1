@@ -5,6 +5,7 @@ import Deadline from "./groups/Deadline";
 import TaskTopic from "./groups/TaskTopic";
 import TaskTopic2 from "./groups/TaskTopic2";
 import ReleatedDocument from "./groups/ReleatedDocument";
+import Department from "./groups/Department";
 function App() {
   return (
 
@@ -15,6 +16,7 @@ function App() {
         <TaskTopic2/>
         <TaskDate />
         <Deadline />
+        <Department/>
         <Invitegroup />
         <ReleatedDocument/>
       </div>
