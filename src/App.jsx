@@ -1,31 +1,23 @@
 import React from "react";
-import "./App.css";
-import PhotoGroup from "./Components/PhotoGroup";
-import InviteGroup from "./Components/InviteGroup";
-
+import Invitegroup from "./groups/Invitegroup";
+import TaskDate from "./groups/TaskDate";
+import Deadline from "./groups/Deadline";
+import TaskTopic from "./groups/TaskTopic";
+import TaskTopic2 from "./groups/TaskTopic2";
+import ReleatedDocument from "./groups/ReleatedDocument";
 function App() {
-    const items = [
-      "./assets/pic1.jpg",
-      "./assets/pic2.jpg",
-      "./assets/pic3.jpg",
-      "./assets/pic4.jpg",
-      "./assets/pic5.jpg",
-      "./assets/pic6.jpg",
-
-  
-];
-
   return (
-    
-    <div className="App">
-      <div className="group">
 
-      <InviteGroup/>
-      <PhotoGroup/>
+    <div className="w-[85%] mx-auto h-full py-4 relative bg-mainbg bg-no-repeat bg-cover bg-right-bottom
+    ">
+      <div className="flex flex-col gap-8">
+        <TaskTopic/>
+        <TaskTopic2/>
+        <TaskDate />
+        <Deadline />
+        <Invitegroup />
+        <ReleatedDocument/>
       </div>
-      {/* <div className="releated-document">
-      <InviteGroup/>
-      </div> */}
     </div>
   );
 }
