@@ -4,7 +4,7 @@ import Participants from "../Components/Participants"
 
 const Invitegroup = () => {
   return (
-    <div className="flex gap-[5rem] h-[4rem] w-full">
+    <div className="subcontainer">
         <Description imgsrc={"assets/group.png"} text={"Invited participants"}/>
         <Participants/>
     </div>

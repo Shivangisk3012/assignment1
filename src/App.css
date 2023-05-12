@@ -1,0 +1,152 @@
+/* App component classes start */
+.App {
+    position: relative;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.maincontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* App component classes end */
+
+
+/* Group components classes start */
+.subcontainer {
+    display: flex;
+    width: 100%;
+    height: auto;
+    max-height: 4rem;
+    gap: 5.2rem;
+}
+
+/* Group components classes end */
+
+
+/* Date component classes start */
+.datecontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 35%;
+}
+
+.datecontainer span {
+    font-size: 12.5px;
+    width: 90%;
+    gap: 1rem;
+    display: flex;
+    word-spacing: 6px;
+}
+
+.datesubcontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.datesubcontainer p {
+    font-weight: 700;
+    color: 15px;
+}
+
+.datesubcontainer button {
+    padding: 0.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    background-color: #1D4ED8;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 0.25rem;
+    color: 10.5px;
+    font-size: 10.5px;
+}
+
+/* Date component classes end */
+
+/* Description component classes start */
+.descriptioncontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    width: 15%;
+}
+
+.descriptioncontainer img {
+    width: 1.5rem;
+}
+
+.descriptioncontainer p {
+    color: #3B82F6;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+    font-size: 12.5px;
+}
+
+/* Description component classes end */
+
+/* Participants component classes start */
+.participantscontainer {
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    align-items: center;
+    width: 35.5%;
+}
+
+.participantscontainer div {
+    position: absolute;
+}
+
+.participantscontainer div img {
+    object-fit: fill;
+    transition-property: all;
+    transition-duration: 200ms;
+    border-radius: 50%;
+    height: 3rem;
+}
+
+.participantscontainer div img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.participantscontainer p {
+    font-size: .8rem;
+    padding-left: 3.5rem;
+}
+
+/* Participants component classes end */
+
+/* Description task component classes start */
+
+.descriptiontaskcontainer {
+    display: flex;
+    gap: 0.5rem;
+    width: 45%;
+}
+
+.descriptiontaskcontainer div {
+    display: flex;
+}
+
+.descriptiontaskcontainer p {
+    text-align: left;
+    width: 100%;
+    font-size: 12.5px;
+}
+
+/* Description task component classes end */

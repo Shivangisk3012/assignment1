@@ -9,20 +9,19 @@ const Participants = () => {
   ];
 
   return (
-    <div className="flex justify-end w-[35.5%] items-center relative h-full">
+    <div className="participantscontainer">
       {items.map((item, index) => (
         <div
           key={index}
-          className="absolute"
           style={{
             zIndex: `${items.length - index}`,
             left: `${25 * index}px`
           }}
         >
-          <img src={item} alt="profile" className="object-fill rounded-full h-[3rem] hover:scale-110 hover:cursor-pointer transition-all duration-200"/>
+          <img src={item} alt="profile" />
         </div>
       ))}
-      <p className="text-[.8rem] pr-14">+3 Interns working on this task</p>
+      <p>+3 Interns working on this task</p>
     </div>
   )
 }
